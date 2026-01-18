@@ -31,22 +31,22 @@ Primarily intended for use with build artifacts (such as on-device testing) wher
 ## Screenshots
 
 ### Hierarchy View
-![Screenshot: Scene hierarchy view showing GameObject tree structure with names and active/inactive states](../../docs/readme/1_Hierarchy.png)
+![Screenshot: Scene hierarchy view showing GameObject tree structure with names and active/inactive states](/docs/readme/1_Hierarchy.png)
 
 View the entire scene hierarchy with GameObject names and active states.
 
 ### GameObject Inspector
-![Screenshot: GameObject inspector showing selected object details with navigation buttons to Transform and Components](../../docs/readme/2_Inspector.png)
+![Screenshot: GameObject inspector showing selected object details with navigation buttons to Transform and Components](/docs/readme/2_Inspector.png)
 
 Inspect individual GameObjects and navigate to their components.
 
 ### Components List
-![Screenshot: Components list displaying all components attached to the selected GameObject](../../docs/readme/3_Components.png)
+![Screenshot: Components list displaying all components attached to the selected GameObject](/docs/readme/3_Components.png)
 
 View all components attached to a GameObject.
 
 ### Component Properties
-![Screenshot: Component properties page showing real-time property values and types](../../docs/readme/4_Component.png)
+![Screenshot: Component properties page showing real-time property values and types](/docs/readme/4_Component.png)
 
 View component properties in real-time during gameplay.
 

@@ -29,22 +29,22 @@ UnityのヒエラルキーをDebugSheet上でデバッグ表示・操作でき�
 ## スクリーンショット
 
 ### ヒエラルキー表示
-![スクリーンショット: GameObjectのツリー構造と名前、アクティブ/非アクティブ状態を表示するシーン階層ビュー](../../docs/readme/1_Hierarchy.png)
+![スクリーンショット: GameObjectのツリー構造と名前、アクティブ/非アクティブ状態を表示するシーン階層ビュー](/docs/readme/1_Hierarchy.png)
 
 シーン全体の階層構造とGameObjectの名前、アクティブ状態を確認できます。
 
 ### GameObject詳細
-![スクリーンショット: 選択したGameObjectの詳細とTransform・Componentsへのナビゲーションボタンを表示するインスペクター](../../docs/readme/2_Inspector.png)
+![スクリーンショット: 選択したGameObjectの詳細とTransform・Componentsへのナビゲーションボタンを表示するインスペクター](/docs/readme/2_Inspector.png)
 
 個別のGameObjectを確認し、各Componentに遷移できます。
 
 ### Component一覧
-![スクリーンショット: 選択したGameObjectにアタッチされているすべてのComponentを表示するリスト](../../docs/readme/3_Components.png)
+![スクリーンショット: 選択したGameObjectにアタッチされているすべてのComponentを表示するリスト](/docs/readme/3_Components.png)
 
 GameObjectにアタッチされているすべてのComponentを確認できます。
 
 ### Componentプロパティ
-![スクリーンショット: Componentのプロパティ値と型をリアルタイムで表示するページ](../../docs/readme/4_Component.png)
+![スクリーンショット: Componentのプロパティ値と型をリアルタイムで表示するページ](/docs/readme/4_Component.png)
 
 ゲームプレイ中にComponentのプロパティをリアルタイムで確認できます。
 
