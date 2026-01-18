@@ -126,6 +126,20 @@ namespace YourNamespace
 
 このパッケージは[UnityDebugSheet](https://github.com/Haruma-K/UnityDebugSheet)（by Haruki Yano）を拡張したものです。UnityDebugSheetの素晴らしい機能に深く感謝いたします。
 
+## 開発者向け
+
+このリポジトリは主に **Claude Code** を使って開発されています。詳細な開発ガイドライン、ベストプラクティス、アーキテクチャ情報については、Claude Codeを起動して直接質問してください。
+
+### Issue-Based Development
+
+Issue-Based Developmentのワークフローを採用しています:
+
+1. 作業したい機能やバグに関するIssueを作成または選択
+2. `/gh-issue-dev <issue番号>` コマンドで開発を開始
+3. Claude CodeがIssueに基づいて自律的に実装を進めます
+4. 自動化されたワークフローに従って、ブランチ、コミット、PRが作成されます
+
+貢献に関する詳細は[CLAUDE.md](CLAUDE.md)を参照してください。
 
 ## サポート
 

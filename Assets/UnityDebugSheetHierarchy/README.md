@@ -128,6 +128,20 @@ This project is published under the MIT License. See [LICENSE.md](LICENSE.md) fo
 
 This package extends [UnityDebugSheet](https://github.com/Haruma-K/UnityDebugSheet) (by Haruki Yano). Deep gratitude for the wonderful features of UnityDebugSheet.
 
+## For Developers
+
+This repository is primarily developed using **Claude Code**. For detailed development guidelines, best practices, and architecture information, start Claude Code and ask questions directly.
+
+### Issue-Based Development
+
+We use Issue-Based Development workflow:
+
+1. Create or find an issue for the feature/bug you want to work on
+2. Start development with the `/gh-issue-dev <issue-number>` command
+3. Claude Code will autonomously handle the implementation based on the issue
+4. Follow the automated workflow to create branches, commits, and PRs
+
+For more information on contributing, please refer to [CLAUDE.md](CLAUDE.md).
 
 ## Support
 
