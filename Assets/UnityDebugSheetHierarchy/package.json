@@ -1,0 +1,28 @@
+{
+  "name": "com.zawascript.unitydebugsheethierarchy",
+  "displayName": "UnityDebugSheet Hierarchy Extension",
+  "version": "0.1.0",
+  "unity": "2020.3",
+  "description": "UnityのヒエラルキーをDebugSheet上でデバッグ表示・操作できるUnityDebugSheetの拡張パッケージです。GameObjectの階層構造を視覚的に確認し、各Componentのプロパティを簡単に編集できます。",
+  "keywords": [
+    "debug",
+    "debugsheet",
+    "hierarchy",
+    "inspector",
+    "development",
+    "tools"
+  ],
+  "author": {
+    "name": "zawascript",
+    "url": "https://github.com/zawascript"
+  },
+  "dependencies": {
+    "com.harumak.unitydebugsheet": "1.5.4"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zawascript/UnityDebugSheetHierarchy.git"
+  },
+  "type": "tool"
+}

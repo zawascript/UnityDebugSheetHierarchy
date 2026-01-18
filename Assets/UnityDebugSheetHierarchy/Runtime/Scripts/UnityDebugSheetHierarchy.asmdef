@@ -1,0 +1,31 @@
+{
+    "name": "UnityDebugSheetHierarchy",
+    "rootNamespace": "DebugSheetHierarchy",
+    "references": [
+        "UnityDebugSheet",
+        "UnityDebugSheet.Unity",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!EXCLUDE_UNITY_DEBUG_SHEET"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "",
+            "define": "UDSH_TMPPRO"
+        },
+        {
+            "name": "com.unity.ugui",
+            "expression": "2.0.0",
+            "define": "UDSH_TMPPRO"
+        }
+    ],
+    "noEngineReferences": false
+}
