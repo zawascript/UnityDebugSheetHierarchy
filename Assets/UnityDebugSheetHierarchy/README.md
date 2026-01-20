@@ -52,17 +52,7 @@ View component properties in real-time during gameplay.
 
 ## Installation
 
-### Via Unity Package Manager (Recommended)
-
-1. Open Unity Editor
-2. Select **Window > Package Manager**
-3. Click **+** button and select **Add package from git URL**
-4. Enter the following URL:
-```
-https://github.com/zawascript/UnityDebugSheetHierarchy.git?path=/Assets/UnityDebugSheetHierarchy
-```
-
-### Via manifest.json
+### Via manifest.json (Recommended)
 
 Add the following to `dependencies` in `Packages/manifest.json`:
 
@@ -73,6 +63,22 @@ Add the following to `dependencies` in `Packages/manifest.json`:
     "com.harumak.unitydebugsheet": "https://github.com/Haruma-K/UnityDebugSheet.git?path=/Assets/UnityDebugSheet"
   }
 }
+```
+
+### Via Unity Package Manager
+
+Due to Unity's limitations, Git URL dependencies are not automatically resolved. You need to install both packages manually:
+
+1. Open Unity Editor
+2. Select **Window > Package Manager**
+3. Click **+** button and select **Add package from git URL**
+4. First, add **UnityDebugSheet** (dependency):
+```
+https://github.com/Haruma-K/UnityDebugSheet.git?path=/Assets/UnityDebugSheet
+```
+5. Then, add **UnityDebugSheet Hierarchy Extension**:
+```
+https://github.com/zawascript/UnityDebugSheetHierarchy.git?path=/Assets/UnityDebugSheetHierarchy
 ```
 
 ## Usage

@@ -50,17 +50,7 @@ GameObjectにアタッチされているすべてのComponentを確認できま�
 
 ## インストール方法
 
-### Unity Package Manager経由（推奨）
-
-1. Unity Editorを開く
-2. **Window > Package Manager** を選択
-3. **+** ボタンをクリックし、**Add package from git URL** を選択
-4. 以下のURLを入力：
-```
-https://github.com/zawascript/UnityDebugSheetHierarchy.git?path=/Assets/UnityDebugSheetHierarchy
-```
-
-### manifest.json経由
+### manifest.json経由（推奨）
 
 `Packages/manifest.json`の`dependencies`に以下を追加：
 
@@ -71,6 +61,22 @@ https://github.com/zawascript/UnityDebugSheetHierarchy.git?path=/Assets/UnityDeb
     "com.harumak.unitydebugsheet": "https://github.com/Haruma-K/UnityDebugSheet.git?path=/Assets/UnityDebugSheet"
   }
 }
+```
+
+### Unity Package Manager経由
+
+Unityの制限により、Git URLの依存関係は自動的に解決されません。両方のパッケージを手動でインストールする必要があります：
+
+1. Unity Editorを開く
+2. **Window > Package Manager** を選択
+3. **+** ボタンをクリックし、**Add package from git URL** を選択
+4. まず、**UnityDebugSheet**（依存パッケージ）を追加：
+```
+https://github.com/Haruma-K/UnityDebugSheet.git?path=/Assets/UnityDebugSheet
+```
+5. 次に、**UnityDebugSheet Hierarchy Extension** を追加：
+```
+https://github.com/zawascript/UnityDebugSheetHierarchy.git?path=/Assets/UnityDebugSheetHierarchy
 ```
 
 ## 使い方
