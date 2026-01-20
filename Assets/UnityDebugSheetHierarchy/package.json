@@ -17,7 +17,7 @@
     "url": "https://github.com/zawascript"
   },
   "dependencies": {
-    "com.harumak.unitydebugsheet": "https://github.com/Haruma-K/UnityDebugSheet.git?path=/Assets/UnityDebugSheet"
+    "com.harumak.unitydebugsheet": "1.5.4"
   },
   "license": "MIT",
   "repository": {
