@@ -14,7 +14,7 @@ Primarily intended for use with build artifacts (such as on-device testing) wher
 - **Hierarchy Visualization**: View Unity's scene hierarchy at runtime
 - **GameObject Search**: Search GameObjects by name for quick access
 - **Component Details**: Display list and properties of Components attached to each GameObject
-- **Real-time Editing**: Edit properties of major Components like Transform, Rigidbody, UI elements during runtime
+- **Real-time Editing**: Edit properties of Transform, during runtime
 - **Extensive Component Support**: Supports 34+ Component types including Transform, Camera, Light, UI elements, Physics, Audio, Particles, and more
 
 ### Supported Components
