@@ -89,7 +89,7 @@ You can use this package by simply adding `DebugSheetHierarchyPage`, `SceneHiera
 - **SceneHierarchyPage**: Displays GameObject hierarchy in the scene
 - **SearchPage**: Search by GameObject name
 - **ComponentsPage**: List of Components on selected GameObject
-- **Each ComponentDebugPage**: Display and edit detailed properties for each Component
+- **Each ComponentDebugPage**: Display detailed properties for each Component
 
 ## Creating Custom ComponentDebugPage
 

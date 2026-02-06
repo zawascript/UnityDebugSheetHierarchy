@@ -87,7 +87,7 @@ https://github.com/zawascript/UnityDebugSheetHierarchy.git?path=/Assets/UnityDeb
 - **SceneHierarchyPage**: シーン内のGameObject階層を表示
 - **SearchPage**: GameObject名で検索
 - **ComponentsPage**: 選択したGameObjectのComponent一覧
-- **各ComponentDebugPage**: Componentごとの詳細プロパティ表示・編集
+- **各ComponentDebugPage**: Componentごとの詳細プロパティ表示
 
 ## 独自のComponentDebugPageを作成する
 
